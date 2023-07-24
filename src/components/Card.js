@@ -6,7 +6,7 @@ export default function Card (){
         <div className="card">
             <img src={image} className="card-img"></img>
             <div className="card-stats">
-                <img src={star} ></img>
+                <img src={star} className="card-star"></img>
                 <span>5.0</span>
                 <span>(6) • </span>
                 <span>USA</span>
