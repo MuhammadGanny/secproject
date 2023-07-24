@@ -11,8 +11,8 @@ export default function Card ( props){
                 <span>{props.reviewCount} • </span>
                 <span>{props.location}</span>
             </div>
-            <p>{props.title}</p>
-            <p>{props.price}</p>
+            <p className="card--title">{props.title}</p>
+            <p className="card--price">{props.price}</p>
         </div>
     )
 }

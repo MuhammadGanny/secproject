@@ -41,7 +41,12 @@ code {
 .hero-para {
   margin-top: 0;
 }
-
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
 .card {
   width: 175px;
   font-size: 12px;
@@ -49,15 +54,16 @@ code {
   display: flex;          
   flex-direction: column; 
 }
-.cards-list {
-  display: flex;
-  flex-wrap: nowrap;
-  gap: 20px;
-  overflow-x: auto;
-}
+
 .card-img {
   width: 100%;
   border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .card-stats {
@@ -67,4 +73,7 @@ code {
 
 .card-star {
   height: 14px;
+}
+.card--price {
+  margin-top: auto;
 }
