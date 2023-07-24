@@ -1,6 +1,6 @@
 import React from "react"
 import star from "../images/Star.png"
-// import image from "../images/image.png"
+ import image from "../images/image.png"
 export default function Card ( props){
     return(
         <div className="card">
